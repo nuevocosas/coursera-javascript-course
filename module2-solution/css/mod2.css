@@ -1,0 +1,127 @@
+.row{
+    width: 100%;
+}
+
+h1{
+    font-family: "Century Gothic", 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+body, p,div,section{
+    font-family: "Century Gothic", 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#chicken{
+    background-color: aquamarine;
+}
+
+#beef{
+    background-color: cadetblue;
+    color: brown;
+}
+
+#sushi{
+    background-color: tomato;
+    color: white;
+}
+
+/* Large Screen Settings ( >= 992px ) */
+@media(min-width: 992px){
+    .box{
+        border: 1px solid black;
+        width: 30%;
+        height: 170px;
+        background-color: grey;
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    section > p{
+        margin: 50px 20px 15px 30px;
+        font-size: 15px;
+    }
+
+    .type{
+        width: 100px;
+        height: 30px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: center;
+        float: right;
+    }
+
+    .type > p{
+        margin-top: 5px;
+    }
+}
+
+
+/* Medium Screen Settings ( >= 768px && <= 991px ) */
+@media(min-width: 768px) and (max-width: 991px){
+    .box{
+        border: 1px solid black;
+        width: 43%;
+        height: 170px;
+        background-color: grey;
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    #sushibox{
+        width: 90.8%;
+    }
+
+    section > p{
+        margin: 50px 20px 15px 30px;
+        font-size: 17px;
+    }
+
+    .type{
+        width: 100px;
+        height: 30px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: center;
+        float: right;
+    }
+
+    .type > p{
+        margin-top: 5px;
+    }
+}
+
+/* Small Screen Settings ( <= 767px ) */
+@media(max-width: 767px){
+    .box{
+        border: 1px solid black;
+        width: 85%;
+        height: 170px;
+        background-color: grey;
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 43px;
+    }
+
+    section > p{
+        margin: 70px 20px 15px 30px;
+        font-size: 17px;
+    }
+
+    .type{
+        width: 100px;
+        height: 30px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: center;
+        float: right;
+    }
+
+    .type > p{
+        margin-top: 5px;
+    }
+}
