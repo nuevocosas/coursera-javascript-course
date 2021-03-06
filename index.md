@@ -14,3 +14,4 @@ I've made quick links in this page for easy access rather than typing the full U
 ```
 [Test Site](https://nuevocosas.github.io/coursera-javascript-course/site/)
 1. [Module 2 Solution](https://nuevocosas.github.io/coursera-javascript-course/module2-solution/)
+```
